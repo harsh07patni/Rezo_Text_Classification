@@ -37,4 +37,4 @@ python -m textblob.download_corpora
 
 ```
 
-For language detection code internet connectivity will be required. Though it's ok if you dont have it. It's not a compulsion# Rezo_Text_Classification
+For language detection code internet connectivity will be required. Though it's ok if you dont have it. It's not a compulsion
