@@ -9,7 +9,7 @@ You should have basic knowledge about python before you begin this course.
 ## Prerequisites
 
 * [Python 2.7](https://www.python.org/downloads/) - Language
-* [Pycharm](https://maven.apache.org/) - IDE
+* [Pycharm](https://www.jetbrains.com/pycharm/download/) - IDE
 * [NLTK](http://www.nltk.org/install.html) - Natural Language Python Package
 * [PIP] - it should be already there if you have installed python 2.7
 
