@@ -1,10 +1,7 @@
+# -*- coding: utf-8 -*-
 import re
-import codecs
 
-
-#file = open('input.txt','r', 'utf8')
-
-file = codecs.open('input.txt','r','utf8')
+file = open('input.txt','r')
 # removin html tags
 html_cleaner = re.compile('<.*?>')
 at_tags_cleaner = re.compile('@.*? ')
@@ -29,6 +26,5 @@ for line in file:
     line = re.sub(hash_tags_cleaner, '', line)
     line = re.sub(emoji_pattern,'',line)
     line = re.sub(remove_all_special_chars,'',line)
-    print line
 
 file.close()

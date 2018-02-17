@@ -33,7 +33,6 @@ print(re.search(r'^Eat', 'Eat cake').group())
 # $ Matches a pattern at the end of string.
 print(re.search(r'cake$', 'Eat cake').group())
 
-
 # [abc] - Matches a or b or c.
 #[a-zA-Z0-9] - Matches any letter from (a to z) or (A to Z) or (0 to 9).
 print(re.search(r'Number: [0-6]', 'Number: 5').group())

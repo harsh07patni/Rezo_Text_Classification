@@ -15,4 +15,3 @@ for w in word_tokens:
 #removal of stopwords
 print(word_tokens)
 print(filtered_sentence)
-
